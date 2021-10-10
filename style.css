@@ -41,6 +41,8 @@ nav{
     min-height: 80px;
 }
 
+
+
 .padding_ul{
     margin-right: 80px;
 }
@@ -141,6 +143,7 @@ nav{
     padding-top: 60px;
     padding-bottom: 40px;
     background-image: url(img2/cafe.jpg);
+    opacity: 0.9;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -231,6 +234,115 @@ nav{
     border-color: #F6B416 !important;
     outline: 0 !important;
     box-shadow: none !important;
+}
+
+
+/* responsive tasarım */
+
+@media (max-width:576px){
+
+    #welcome .col-md-8{
+        text-align: center !important;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    #welcome .col-md-3{
+        text-align: center !important;
+        margin-bottom: 5px;
+    }
+    #welcome .col-md-1{
+        text-align: center !important;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+    .logo .col-md-6{
+        text-align: center !important;
+        padding-bottom: 15px;
+    }
+
+    .logo .col-md-2{
+        text-align: center !important;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+
+    .navbar ul{
+       font-size: 20px;
+    }
+
+   #kayit input{
+       width: 100%;
+       margin-left: 40px;
+       margin-top: 15px;
+   }
+
+   
+   #kayit select{
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 15px;
+    }
+
+    #kayit button{
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+
+    #info_rota .fs-14{
+        font-size: 18px;
+    }
+
+    #info_rota p{
+        font-size: 22px;
+    }
+    #info_rota .yuvarlak{       
+        margin: auto;
+    }
+
+    #info_rota2 h4{
+        margin-top: 20px;
+    }
+
+    #info_rota2 p{
+        font-size: 20px;
+    }
+
+    #news .card{
+        margin-top: 35px;
+    }
+
+    #egitmen .card{
+        margin-top: 35px;
+    }
+
+    #galeri img{
+        width:370px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    #form2 {
+        margin-top: 50px;
+    }
+
+    #form2 input{
+        margin-top: 25px;
+    }
+
+    #form2 button{
+       width: 100%;
+    }
+
+    #contact input[type="mail"]{
+        margin-top: 25px;
+    }
+
+    #contact button{
+        width: 100% !important;
+    }
 }
 
 

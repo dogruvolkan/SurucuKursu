@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rota Bahçeşehir Sürücü Kursu</title>
+    <meta name="title" content="Rota Bahçeşehir Sürücü Kursu">
+    <meta name="keywords" content="Sürücü kursu, ehliyeti, araba sürmek, ">
+    <meta name="description" content="Sürücü kursu">
+    <link rel="icon" href="img/logo.ico">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -196,7 +200,7 @@
                 <h2 class="mb-5 fw-bolder">KURS TABAN FİYATLARI</h2>
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="card shadow" style="width:260px;">
+                        <div class="card shadow" style="min-width:260px;">
                             <img src="img/a180-1536x1007.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">B Manuel</h5>
@@ -220,7 +224,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card shadow" style="width:260px;">
+                        <div class="card shadow" style="min-width:260px;">
                             <img src="img/bmw-1536x1089.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">B OTOMATİK</h5>
@@ -244,7 +248,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card shadow" style="width:260px;">
+                        <div class="card shadow" style="min-width:260px;">
                             <img src="img/ybr-1-1536x1135.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">A1 MOTOSİKLET</h5>
@@ -268,7 +272,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card shadow" style="width:260px;">
+                        <div class="card shadow" style="min-width:260px;">
                             <img src="img/mt25-1536x1171.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">A2 MOTOSİKLET</h5>
@@ -298,10 +302,20 @@
         <div class="container">
             <div id="kayit" class="mt-5  shadow border ">
                 <form action="">
+                    <h3 class="pb-2"><i class="fas fa-car-side pe-3"></i>Online Ön Kayıt /</h3>
                     <div class="row">
-                        <h3 class="pb-2"><i class="fas fa-car-side pe-3"></i>Online Ön Kayıt /</h3>
                         <div class="col-md-4">
                             <input type="text" class="form-control w-75" placeholder="İsim">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="mail" class="form-control w-75" placeholder="EPosta">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="tel" class="form-control w-75" placeholder="Telefon">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
                             <select name="" id="" class="form-select mt-3 w-75">
                                 <option value="">İstenilen Ehliyet Sınıfı</option>
                                 <option value="">B</option>
@@ -311,7 +325,6 @@
                             </select>
                         </div>
                         <div class="col-md-4">
-                            <input type="mail" class="form-control w-75" placeholder="EPosta">
                             <select name="" id="" class="form-select mt-3 w-75">
                                 <option value="">Mevcut Ehliyet Sınıfı</option>
                                 <option value="">Yok</option>
@@ -322,294 +335,316 @@
                             </select>
                         </div>
                         <div class="col-md-4">
-                            <input type="tel" class="form-control w-75" placeholder="Telefon">
                             <button type="submit" class="btn btn-warning w-75 mt-3 text-white fw-bold">GÖNDER</button>
                         </div>
                     </div>
-                </form>
+            </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="info_rota" class="mt-5 ">
+        <div class="container ">
+            <p class=" pt-5 turuncu fw-bolder">ROTA BAHÇEŞEHİR SÜRÜCÜ OKULU</p>
+            <h3 class="mb-4 text-white fw-bolder">Faydalı Bilgiler</h3>
+            <hr class="mt-4 mb-4  text-white">
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="text-white mt-5"><span class="turuncu pe-2">01</span>Gereken Evraklar</p>
+                    <p class="text-white fs-14">Kayıt oluşturmak için gereken evrakları hazırlamak artık çok kolay.
+                    </p>
+                    <div class="yuvarlak ">
+                        <img src="img/services-1.png" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <p class="text-white mt-5"><span class="turuncu pe-2">02</span>E-Sınav Nedir?</p>
+                    <p class="text-white fs-14">Yeni sınav sistemi hakkında bilmeniz gereken her şeyi sizler için
+                        hazırladık.</p>
+                    <div class="yuvarlak ">
+                        <img src="img/services-2.png" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <p class="text-white mt-5"><span class="turuncu pe-2">03</span>Stajyer Ehliyet Nedir?</p>
+                    <p class="text-white fs-14">Stajyer ehliyet, ehliyetini yeni almış sürücülerin belgelerine
+                        verilen
+                        isimdir.</p>
+                    <div class="yuvarlak ">
+                        <img src="img/services-3.png" alt="">
+                    </div>
+
+                </div>
             </div>
         </div>
+    </div>
 
-        <div id="info_rota" class="mt-5 ">
-            <div class="container ">
-                <p class=" pt-5 turuncu fw-bolder">ROTA BAHÇEŞEHİR SÜRÜCÜ OKULU</p>
-                <h3 class="mb-4 text-white fw-bolder">Faydalı Bilgiler</h3>
-                <hr class="mt-4 mb-4  text-white">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="yuvarlak ">
-                            <img src="img/services-1.png" alt="">
+    <div id="info_rota2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/bg-7 (1).jpg" alt="" width="505px;">
+                </div>
+                <div class="col-md-6">
+                    <h4 class="turuncu fw-bolder">Rota Oluşturuldu...</h4>
+                    <h2 class="fw-bolder">Güvenli ve Eğlenceli Bir Sürüş Deneyimine Hazır mısınız?</h2>
+                    <hr class="my-5">
+                    <p>Okulumuz ilk kez araç kullanacak kursiyerlerin yanı sıra mevcut ehliyeti olup ancak pratik
+                        eksiği olan sürücülere de hizmet vermektedir.
+                    </p>
+                    <div class="row mt-2">
+                        <div class="col-md-6">
+                            <p><i class="far fa-check-circle turuncu pe-2"></i>Temel Sürüş Becerileri</p>
+                            <p><i class="far fa-check-circle turuncu pe-2"></i>Şehir İçi ve Otoyolda Sürüş</p>
+                            <p><i class="far fa-check-circle turuncu pe-2"></i>Güvenli Fren Teknikler</p>
                         </div>
-                        <p class="text-white mt-5"><span class="turuncu pe-2">01</span>Gereken Evraklar</p>
-                        <p class="text-white fs-14">Kayıt oluşturmak için gereken evrakları hazırlamak artık çok kolay.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="yuvarlak ">
-                            <img src="img/services-2.png" alt="">
+                        <div class="col-md-6">
+                            <p><i class="far fa-check-circle turuncu pe-2"></i>Geri Manevra Becerileri</p>
+                            <p><i class="far fa-check-circle turuncu pe-2"></i>Paralel ve L Park Teknikleri</p>
+                            <p><i class="far fa-check-circle turuncu pe-2"></i>Trafikte Stres Yönetimi
+                            </p>
                         </div>
-                        <p class="text-white mt-5"><span class="turuncu pe-2">02</span>E-Sınav Nedir?</p>
-                        <p class="text-white fs-14">Yeni sınav sistemi hakkında bilmeniz gereken her şeyi sizler için
-                            hazırladık.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="yuvarlak ">
-                            <img src="img/services-3.png" alt="">
-                        </div>
-                        <p class="text-white mt-5"><span class="turuncu pe-2">03</span>Stajyer Ehliyet Nedir?</p>
-                        <p class="text-white fs-14">Stajyer ehliyet, ehliyetini yeni almış sürücülerin belgelerine
-                            verilen
-                            isimdir.</p>
+                        <button class="btn btn-warning text-white fw-bolder">Bize Ulaşın</button>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div id="info_rota2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="img/bg-7 (1).jpg" alt="" width="505px;">
-                    </div>
-                    <div class="col-md-6">
-                        <h4 class="turuncu fw-bolder">Rota Oluşturuldu...</h4>
-                        <h2 class="fw-bolder">Güvenli ve Eğlenceli Bir Sürüş Deneyimine Hazır mısınız?</h2>
-                        <hr class="my-5">
-                        <p>Okulumuz ilk kez araç kullanacak kursiyerlerin yanı sıra mevcut ehliyeti olup ancak pratik
-                            eksiği olan sürücülere de hizmet vermektedir.
-                        </p>
-                        <div class="row mt-2">
-                            <div class="col-md-6">
-                                <p><i class="far fa-check-circle turuncu pe-2"></i>Temel Sürüş Becerileri</p>
-                                <p><i class="far fa-check-circle turuncu pe-2"></i>Şehir İçi ve Otoyolda Sürüş</p>
-                                <p><i class="far fa-check-circle turuncu pe-2"></i>Güvenli Fren Teknikler</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p><i class="far fa-check-circle turuncu pe-2"></i>Geri Manevra Becerileri</p>
-                                <p><i class="far fa-check-circle turuncu pe-2"></i>Paralel ve L Park Teknikleri</p>
-                                <p><i class="far fa-check-circle turuncu pe-2"></i>Trafikte Stres Yönetimi
-                                </p>
-                            </div>
-                            <button class="btn btn-warning text-white fw-bolder">Bize Ulaşın</button>
+    <div id="news">
+        <div class="container">
+            <p class="turuncu fw-bolder">BLOG</p>
+            <h3 class="fw-bolder">Son Haberler</h3>
+            <hr class="fw-bolder ">
+
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="img/home-1-boxed-slide-2-370x244.jpg" class="card-img-top" alt="...">
+                        <div class="card-body pt-4  ">
+                            <p class="card-text fw-bolder">2021 Ehliyet Sınav ve Harç Ücretleri</p>
+                            <p>2021 yılının ehliyet sınav ücretleri ve harç miktarları belirlendi.
+                                Yeni yıla göre elektronik sınav için Milli Eğitim Bakanlığı’nın ödeme sistemine
+                                online olarak yatırılacak olan sınav ücreti 100 TL’dir.
+                                Direksiyon sınavı için Milli
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div id="news">
-            <div class="container">
-                <p class="turuncu fw-bolder">BLOG</p>
-                <h3 class="fw-bolder">Son Haberler</h3>
-                <hr class="fw-bolder ">
-
-                <div class="row mt-5">
-                    <div class="col-md-4">
-                        <div class="card shadow">
-                            <img src="img/home-1-boxed-slide-2-370x244.jpg" class="card-img-top" alt="...">
-                            <div class="card-body pt-4  ">
-                                <p class="card-text fw-bolder">2021 Ehliyet Sınav ve Harç Ücretleri</p>
-                                <p>2021 yılının ehliyet sınav ücretleri ve harç miktarları belirlendi.
-                                    Yeni yıla göre elektronik sınav için Milli Eğitim Bakanlığı’nın ödeme sistemine
-                                    online olarak yatırılacak olan sınav ücreti 100 TL’dir.
-                                    Direksiyon sınavı için Milli
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card shadow">
-                            <img src="img/11-370x244.jpg" class="card-img-top" alt="...">
-                            <div class="card-body pt-4">
-                                <p class="card-text fw-bolder">1 Haziran’da Yeniden Hizmetinizdeyiz</p>
-                                <p>Değerli adayımız,
-                                    COVID-19 salgını sebebi ile bir süredir hizmet veremeyen kursumuzda 1 Haziran 2020
-                                    itibariyle eğitime tekrar başlanacaktır. Bu süreçte sizlerin ve eğitmenlerimizin
-                                    sağlığı için gerekli önlemleri alıyor olacağız.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 shadow">
-                        <div class="card">
-                            <img src="img/5e6f529fd265a211848d830a-370x244.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body pt-4">
-                                <p class="card-text fw-bolder">Sürücü Kursu ve Ehliyet Sınavlarında Alınacak Koronavirüs
-                                    (Covid-19) Tedbirleri</p>
-                                <p>Koronavirüs (Covid-19) salgını nedeniyle alınan tedbirler doğrultusunda, 5580 sayılı
-                                    Özel Öğretim Kurumları Kanunu kapsamında faaliyette bulunan motorlu taşıt sürücüleri
-                                    kursları, özel ulaştırma hizmetleri mesleki iş
-                                </p>
-                            </div>
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="img/11-370x244.jpg" class="card-img-top" alt="...">
+                        <div class="card-body pt-4">
+                            <p class="card-text fw-bolder">1 Haziran’da Yeniden Hizmetinizdeyiz</p>
+                            <p>Değerli adayımız,
+                                COVID-19 salgını sebebi ile bir süredir hizmet veremeyen kursumuzda 1 Haziran 2020
+                                itibariyle eğitime tekrar başlanacaktır. Bu süreçte sizlerin ve eğitmenlerimizin
+                                sağlığı için gerekli önlemleri alıyor olacağız.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div id="egitmen">
-            <div class="container">
-                <p class="turuncu fw-bolder">ROTA BAHÇEŞEHİR</p>
-                <h3 class="text-white fw-bold">Eğitmenlerimiz</h3>
-                <div class="row mt-5">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <img src="img/2-1-370x370.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text text-center fw-bold turuncu">Aynur Şenol</p>
-                                <p class="card-text text-center">Eğitmen</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <img src="img/3-1-370x370.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text text-center fw-bold turuncu">Berkant Şenol</p>
-                                <p class="card-text text-center">Eğitmen</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <img src="img/4-370x370.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text text-center fw-bold turuncu">Erkan Şenol</p>
-                                <p class="card-text text-center">Eğitmen</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <img src="img/2-1-370x370.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text text-center fw-bold turuncu">Aynur Şenol</p>
-                                <p class="card-text text-center">Eğitmen</p>
-                            </div>
+                <div class="col-md-4 shadow">
+                    <div class="card">
+                        <img src="img/5e6f529fd265a211848d830a-370x244.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body pt-4">
+                            <p class="card-text fw-bolder">Sürücü Kursu ve Ehliyet Sınavlarında Alınacak Koronavirüs
+                                (Covid-19) Tedbirleri</p>
+                            <p>Koronavirüs (Covid-19) salgını nedeniyle alınan tedbirler doğrultusunda, 5580 sayılı
+                                Özel Öğretim Kurumları Kanunu kapsamında faaliyette bulunan motorlu taşıt sürücüleri
+                                kursları, özel ulaştırma hizmetleri mesleki iş
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div id="galeri">
-            <div class="container">
-                <p class="turuncu fw-bolder">GALERİ</p>
-                <div class="row">
-                    <div class="col-md-7">
-                        <h3 class="fw-bold">Son Fotoğraflar</h3>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="img2/1.jpg" alt="" width="200px" height="130px" class="pb-3">
-                                <img src="img2/2.jpg" alt="" width="200px" height="130px" class="pb-3">
-                                <img src="img2/3.jpg" alt="" width="200px" height="130px" class="pb-3">
-                            </div>
-                            <div class="col-md-4">
-                                <img src="img2/4.jpg" alt="" width="200px" height="130px" class="pb-3">
-                                <img src="img2/5.jpg" alt="" width="200px" height="130px" class="pb-3">
-                                <img src="img2/6.jpg" alt="" width="200px" height="130px" class="pb-3">
-                            </div>
-                            <div class="col-md-4">
-                                <img src="img2/7.jpg" alt="" width="200px" height="130px" class="pb-3">
-                                <img src="img2/8.jpg" alt="" width="200px" height="130px" class="pb-3">
-                                <img src="img2/9.jpg" alt="" width="200px" height="130px" class="pb-3">
-                            </div>
+    <div id="egitmen">
+        <div class="container">
+            <p class="turuncu fw-bolder">ROTA BAHÇEŞEHİR</p>
+            <h3 class="text-white fw-bold">Eğitmenlerimiz</h3>
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/ceo.jpg" class="card-img-top" alt="..." min-height="260px">
+                        <div class="card-body">
+                            <p class="card-text text-center fw-bold turuncu">Aynur Şenol</p>
+                            <p class="card-text text-center">Eğitmen</p>
                         </div>
                     </div>
-                    <div class="col-md-5">
-                        <div id="form2">
-                            <h4 class="fw-bolder">Ders İçin Kayıt Oluştur</h4>
-                            <form action="">
-                                <div class="row pt-4">
-                                    <div class="col-md-6">
-                                        <input type="text" class="form-control" placeholder="isim*">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="text" class="form-control" placeholder="Eposta adresiniz*">
-                                    </div>
-                                    <div class="pt-4">
-                                        <textarea name="" id="" cols="30" rows="5" class="form-control"
-                                            placeholder="Mesajınız*" style="resize: none;"></textarea>
-                                    </div>
-                                    <div class="pt-4 text-center">
-                                        <button type="submit" class="btn btn-warning text-white fw-bold">Gönder</button>
-                                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/ceo.jpg" class="card-img-top" alt="..." min-height="260px">
+                        <div class="card-body">
+                            <p class="card-text text-center fw-bold turuncu">Berkant Şenol</p>
+                            <p class="card-text text-center">Eğitmen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/ceo.jpg" class="card-img-top" alt="..." min-height="260px">
+                        <div class="card-body">
+                            <p class="card-text text-center fw-bold turuncu">Erkan Şenol</p>
+                            <p class="card-text text-center">Eğitmen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/ceo.jpg" class="card-img-top" alt="..." min-height="260px">
+                        <div class="card-body">
+                            <p class="card-text text-center fw-bold turuncu">Aynur Şenol</p>
+                            <p class="card-text text-center">Eğitmen</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div id="galeri">
+        <div class="container">
+            <p class="turuncu fw-bolder">GALERİ</p>
+            <div class="row">
+                <div class="col-md-7">
+                    <h3 class="fw-bold">Son Fotoğraflar</h3>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img2/3.png" class="pb-1">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img2/3.png" class="pb-1">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img2/3.png" class="pb-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img2/3.png" class="pb-1">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img2/3.png" class="pb-1">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img2/3.png" class="pb-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img2/3.png" class="pb-1">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img2/3.png" class="pb-1">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img2/3.png" class="pb-1">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-5">
+                    <div id="form2" class="">
+                        <h4 class="fw-bolder">Ders İçin Kayıt Oluştur</h4>
+                        <form action="">
+                            <div class="row pt-4">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="isim*">
                                 </div>
-                            </form>
-                        </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Eposta adresiniz*">
+                                </div>
+                                <div class="pt-4">
+                                    <textarea name="" id="" cols="30" rows="8" class="form-control"
+                                        placeholder="Mesajınız*" style="resize: none;"></textarea>
+                                </div>
+                                <div class="pt-4 text-center">
+                                    <button type="submit" class="btn btn-warning text-white fw-bold">Gönder</button>
+                                </div>
+
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <div id="cafe">
-            <div class="container">
-                <div class="row text-white">
-                    <div class="col-md-6">
-                        <h3 class="fw-bolder  ps-5">Rota Cafe</h3>
-                        <p class="fw-bolder  ps-5">Kantin değil Cafe...</p>
-                    </div>
-                    <div class="col-md-6">
-                        <h4 class="fw-bolder ps-5">Neden Cafe?</h4>
-                        <p class="fw-bolder ps-5 ">Çünkü sana ve pozitif eğitime değer veriyoruz. Daha iyi ve kaliteli
-                            bir
-                            hizmet için
-                            buradayız. Sıcak mekanımıza her zaman bekliyoruz.</p>
-                    </div>
+    <div id="cafe">
+        <div class="container">
+            <div class="row text-white">
+                <div class="col-md-6">
+                    <h3 class="fw-bolder ps-5">Rota Cafe</h3>
+                    <p class="fw-bolder  ps-5">Kantin değil Cafe...</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="fw-bolder ps-5">Neden Cafe?</h4>
+                    <p class="fw-bolder ps-5 ">Çünkü sana ve pozitif eğitime değer veriyoruz. Daha iyi ve kaliteli
+                        bir
+                        hizmet için
+                        buradayız. Sıcak mekanımıza her zaman bekliyoruz.</p>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div id="harita">
-            <iframe width="100%" height="450" frameborder="2" scrolling="no" marginheight="0" marginwidth="0"
-                src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=turkey%20ayd%C4%B1n%20ku%C5%9Fadas%C4%B1%20%20simge%20s%C3%BCr%C3%BCc%C3%BC%20kursu+(simge%20s%C3%BCr%C3%BCc%C3%BC%20kursu)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
-                href="http://www.gps.ie/"></a>
-        </div>
+    <div id="harita">
+        <iframe width="100%" height="450" frameborder="2" scrolling="no" marginheight="0" marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=turkey%20ayd%C4%B1n%20ku%C5%9Fadas%C4%B1%20%20simge%20s%C3%BCr%C3%BCc%C3%BC%20kursu+(simge%20s%C3%BCr%C3%BCc%C3%BC%20kursu)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+            href="http://www.gps.ie/"></a>
+    </div>
 
-        <div id="footer" class="text-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <h4 class="text-center fw-bold">Rota</h4>
-                        <hr>
-                        <p>Rota Bahçeşehir Sürücü Kursu.Benim hedefim benim Rota’m.</p>
-                    </div>
-                    <div class="col-md-3">
-                        <h4 class="text-center fw-bold">Kurumsal</h4>
-                        <hr>
-                        <ul>
-                            <li><a href="#" class="text-decoration-none text-white">Anasayfa</a></li>
-                            <li><a href="#" class="text-decoration-none text-white">Blog</a></li>
-                            <li><a href="#" class="text-decoration-none text-white">Galeri</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h4 class="text-center fw-bold">Sürücü Kursu</h4>
-                        <hr>
-                        <ul>
-                            <li><a href="#" class="text-decoration-none text-white">Eğitmenlerimiz</a></li>
-                            <li><a href="#" class="text-decoration-none text-white">Ehliyet Sınıfları</a></li>
-                            <li><a href="#" class="text-decoration-none text-white">Ehliyet Fiyatları</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h4 class="text-center fw-bold">Destek</h4>
-                        <hr>
-                        <ul>
-                            <li><a href="#" class="text-decoration-none text-white">SSS</a></li>
-                            <li><a href="#" class="text-decoration-none text-white">Bize Ulaşın</a></li>
-                        </ul>
-                    </div>
-                    <hr class="mt-5">
+    <div id="footer" class="text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4 class="text-center fw-bold">Rota</h4>
+                    <hr>
+                    <p>Rota Bahçeşehir Sürücü Kursu.Benim hedefim benim Rota’m.</p>
                 </div>
+                <div class="col-md-3">
+                    <h4 class="text-center fw-bold">Kurumsal</h4>
+                    <hr>
+                    <ul>
+                        <li><a href="index.html" class="text-decoration-none text-white">Anasayfa</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">Blog</a></li>
+                        <li><a href="galeri.html" class="text-decoration-none text-white">Galeri</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="text-center fw-bold">Sürücü Kursu</h4>
+                    <hr>
+                    <ul>
+                        <li><a href="egitmen.html" class="text-decoration-none text-white">Eğitmenlerimiz</a></li>
+                        <li><a href="ehliyetSinif.html" class="text-decoration-none text-white">Ehliyet Sınıfları</a></li>
+                        <li><a href="ehliyetFiyat.html" class="text-decoration-none text-white">Ehliyet Fiyatları</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="text-center fw-bold">Destek</h4>
+                    <hr>
+                    <ul>
+                        <li><a href="sss.html" class="text-decoration-none text-white">SSS</a></li>
+                        <li><a href="contact.html" class="text-decoration-none text-white">Bize Ulaşın</a></li>
+                    </ul>
+                </div>
+                <hr class="mt-5">
             </div>
         </div>
+    </div>
 
-        <div id="back_to_top">
-            <a href="#"><i class="fas fa-angle-up fa-2x text-white"></i></a>
-        </div>
+    <div id="back_to_top">
+        <a href="#"><i class="fas fa-angle-up fa-2x text-white"></i></a>
+    </div>
 
     </div>
 
