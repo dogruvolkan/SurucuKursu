@@ -1,0 +1,237 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#welcome{
+    background-color: #1D1D22;
+}
+
+#welcome a:hover{
+    color:#F6931F !important;
+}
+
+#welcome .fab:hover{
+    color:#F6931F !important;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+
+.border-15{
+    width:160px;
+    height: 40px;
+    border: 1px solid #F6931F;
+    border-radius: 15px;
+    color:#69696e;
+    padding:10px;
+}
+
+.logo i{
+    color:#F6931F;
+    font-size: 20px;
+}
+
+
+nav{
+    background-color: #282D33;
+    min-height: 80px;
+}
+
+.padding_ul{
+    margin-right: 80px;
+}
+
+
+.renkli_yazı{
+    position: relative;
+    top:-120px;
+    font-family: 'Poppins', sans-serif;
+    color:#F6931F;
+    font-size: 70px;
+    font-weight:900;
+}
+
+
+
+#kayit form{
+    border-top: 7px solid #F6931F;
+    padding: 50px;
+}
+
+#kayit i{
+    color:#F6931F;
+}
+ 
+
+#info_rota{
+    background-color: #1D1D22;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.yuvarlak{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #1D1D22;
+    box-shadow: 2px 3px 20px 0 rgb(240 241 245);
+    transition: all 0.5s;
+   
+}
+
+.yuvarlak img{  
+    position: relative;
+   top:10px;
+   left:5px;
+}
+
+.yuvarlak:hover{
+    cursor: pointer;
+    background-color: #F6931F;
+   
+}
+
+.turuncu{
+    color:#F6931F;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+#info_rota2{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+#news{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: #F6F7FB;
+}
+
+#egitmen{
+    background-image: url(img/bg-9.jpg);
+    background-position: center;
+    background-attachment:scroll !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom:80px;
+}
+
+
+#egitmen .card:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px !important;
+}
+#galeri{
+    margin-bottom: 80px;
+}
+#form2{
+    border:10px solid #F6931F;
+    padding:40px;
+}
+
+#cafe{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-image: url(img2/cafe.jpg);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+   
+}
+
+#footer{
+    padding-top:100px;
+    padding-bottom:100px;
+    background-color: #1D1D22;
+}
+
+#footer li{
+    list-style: none;
+}
+
+#footer a:hover{
+    color:#F6931F !important;
+}
+
+#back_to_top{
+    width: 45px;
+    height: 45px;
+    background-color: #F6931F;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    transition: all 0.5s;
+}
+
+
+#back_to_top:hover{
+    cursor: pointer;
+    background-color: #1D1D22;
+}
+
+#back_to_top i{
+   padding-left:13px;
+   padding-top:5px;
+}
+
+
+.kareKenar{
+    width: 60px;
+    height: 60px;
+    border:2px solid #F6B416;
+    
+}
+
+.kareKenar i{
+    font-size: 25px;
+    color:#F6B416;
+    position: relative;
+    top:15px;
+    left:15px;
+    transition: all 0.8s;
+}
+
+.kareKenar:hover{
+    cursor: pointer;
+    background-color:#F6B416;
+    
+}
+
+.kareKenar:hover i{
+    color:white;
+    
+}
+
+.form-control:focus, select:focus{
+    color: #212529 !important;
+    background-color: #fff !important;
+    border-color: #F6B416 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.accordion-button{
+    font-size: 19px !important;
+    font-weight: bold;
+}
+
+.accordion-button:focus{
+    background-color:#F6B416 !important;
+    color:white !important;
+    border-color: #F6B416 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+
+
